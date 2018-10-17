@@ -1,0 +1,10 @@
+package com.zmj.design.bridge.intro;
+
+public  class Jeep2000 implements Car{
+
+	@Override
+	public void instalEngine() {
+		System.out.println("Jeep安装2000的引擎..");
+	}
+
+}
